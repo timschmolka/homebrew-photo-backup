@@ -2,7 +2,7 @@ class Pbak < Formula
   desc "Photo backup utility: SD card -> SSD -> Immich via immich-go"
   homepage "https://github.com/timschmolka/photo-backup"
   url "https://github.com/timschmolka/photo-backup/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "b112866cd724852d9811cc2a61849ed2d10fd144e45d3e617b30208dd76ca610"
+  sha256 "f831986d7b7fc2594e9cefa0ac44563a3632849cd8abaa6b98d4a3d4b406d09d"
   license "MIT"
 
   depends_on "exiftool"
