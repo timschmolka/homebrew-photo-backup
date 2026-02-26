@@ -1,8 +1,8 @@
 class Pbak < Formula
   desc "Photo backup utility: SD card -> SSD -> Immich via immich-go"
   homepage "https://github.com/timschmolka/photo-backup"
-  # Private repo — requires SSH access
-  url "git@github.com:timschmolka/photo-backup.git", tag: "v0.1.0"
+  url "https://github.com/timschmolka/photo-backup/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "79b4345bfdfbbdee2976fe8dfb6ff65d12cd9c1984a0304d10da210dee11552c"
   license "MIT"
 
   depends_on "immich-go"
